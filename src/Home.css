@@ -1,0 +1,70 @@
+.home {
+  background-image: url(./assets/Backgroup.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container_login {
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 926px;
+  display: flex;
+  border: none;
+  border: 2px solid #fff;
+  background-color: rgba(255, 255, 255, 0.1); /* Fundo semi-transparente */
+  backdrop-filter: blur(10px);
+}
+
+.login {
+  width: auto;
+}
+
+.login h1 {
+  font-size: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+.login input {
+  background-color: transparent;
+  width: 98%;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+  border-bottom: solid 2px #fff;
+  margin-top: 10px;
+  color: #fff;
+  font-size: 15px;
+  outline: none;
+}
+
+.login button {
+  width: 100%;
+  height: 50px;
+  margin-top: 60px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.login button:hover{
+  background-color: #ddd;
+}
+
+.login > a,
+.login > p {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.login a {
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+}
