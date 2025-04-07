@@ -73,3 +73,20 @@
 .box button:hover {
   background-color: #ddd;
 }
+
+.mensagem {
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.sucesso {
+  background-color: rgba(0, 128, 0, 0.7); /* verde */
+}
+
+.erro {
+  background-color: rgba(255, 0, 0, 0.7); /* vermelho */
+}
