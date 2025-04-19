@@ -3,7 +3,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import Registration from "./Registration";
-import HomeBn from "./HomeBn";
+import HomeBn from "./Header";
 
 function App() {
   return (
