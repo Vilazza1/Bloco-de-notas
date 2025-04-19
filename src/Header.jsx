@@ -2,20 +2,6 @@ import React, { useEffect, useState } from "react";
 import "./Header.css";
 
 function HomeBn() {
-  const [nome, setNome] = useState("");
-
-  useEffect(() => {
-    const emailLogado = localStorage.getItem("usuarioLogado");
-
-    if (emailLogado) {
-      const dados = localStorage.getItem(emailLogado);
-      if (dados) {
-        const usuario = JSON.parse(dados);
-        setNome(usuario.nome);
-      }
-    }
-  }, []);
-
   return (
     <>
       <header className="header">

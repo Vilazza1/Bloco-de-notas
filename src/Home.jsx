@@ -17,7 +17,7 @@ function Home() {
 
     if (resultado.success) {
       localStorage.setItem("usuarioLogado", email);
-      navigate("/homebn"); // redireciona para HomeBn se login for válido
+      navigate("/homePrincipal"); // redireciona para HomeBn se login for válido
     }
   };
 
